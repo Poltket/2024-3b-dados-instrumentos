@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte-titulo: "Lilita One", sans-serif;
+    --fonte-testo: "Prata", serif;
+    --cor1: #e63946ff;
+    --cor2: #f1faeeff;
+    --cor3: #a8dadcff;
+    --cor4: #457b9dff;
+    --cor5: #1d3557ff;
+
+}
