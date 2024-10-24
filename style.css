@@ -5,11 +5,56 @@
 
 :root {
     --fonte-titulo: "Lilita One", sans-serif;
-    --fonte-testo: "Prata", serif;
-    --cor1: #e63946ff;
+    --fonte-texto: "Prata", serif;
+    --cor1: #58aef0;
     --cor2: #f1faeeff;
     --cor3: #a8dadcff;
     --cor4: #457b9dff;
     --cor5: #1d3557ff;
 
+}
+body{
+    font-family: var(--fonte-texto);
+    background-color: var(--cor5);
+    color: var(--cor5);
+    height: 100vh;
+
+}
+header{
+    background-color: var(--cor1);
+    text-align: center;
+}
+h1{
+    font-family: var(--fonte-texto);
+    font-size: 2rem;
+    padding: 1.2rem 0;
+    color: var(--cor2);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+nav{
+    text-decoration: none;
+    color: var(--cor4);
+    margin: 0 2rem 1rem 0;
+    font-size: 1.5rem;
+}
+nav a :hover{
+    text-decoration: underline;
+    font-size: 1.7rem;
+    color: var(--cor4);
+    transition: 0.5s;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor1);
+    color: var(--cor2);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 1rem;
 }
