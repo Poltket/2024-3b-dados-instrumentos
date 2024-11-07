@@ -8,8 +8,13 @@ async function vizualizainfo(){
     const InstrumentoMaisVotado = Instrumentos[0]
     const quantidadeDeVotos = Object.values(dados)[0]
 
-    console.log(InstrumentoMaisVotado)
-    console.log(quantidadeDeVotos)
+    let paragrafo = document.createElement('p')
+
+    paragrafo.classList.add('caixa-grafico__texto')
+
+    paragrafo.innerHTML = `Nessa pesquisa, buscamos encontrar qual instrumento musical favorito pelos brasileiros. O ${CursoMaisVotado} foi o curso mais votado entre todos, com um total de ${quantidadeDeVotos}.`
+   
+    let caixa
 }
 
 vizualizainfo()
