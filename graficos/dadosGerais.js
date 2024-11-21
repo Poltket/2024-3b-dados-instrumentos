@@ -22,7 +22,7 @@ async function vizualizainfo() {
 
     paragrafo.classList.add('caixa-grafico__texto')
 
-    paragrafo.innerHTML = ` Nessa pesquisa, buscamos encontrar qual instrumento musical favorito pelos brasileiros. O ${InstrumentoMaisVotado} foi o curso mais votado entre todos, com um total de ${quantidadeDeVotos}.`
+    paragrafo.innerHTML = ` Nessa pesquisa, buscamos encontrar qual instrumento musical favorito pelos brasileiros, com um total de mais de 250 mil votos!`
 
     let caixa = document.getElementById('caixa-grafico')
     caixa.appendChild(paragrafo)

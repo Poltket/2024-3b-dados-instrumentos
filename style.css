@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200..800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
 :root {
-    --fonte-titulo: "Lilita One", sans-serif;
-    --fonte-texto: "Prata", serif;
+    --fonte-titulo: "Bebas Neue", sans-serif;
+    --fonte-texto:  "Dosis", sans-serif;
     --cor1: #58aef0;
     --cor2: #f1faeeff;
     --cor3: #a8dadcff;
@@ -16,7 +18,7 @@
 body{
     font-family: var(--fonte-titulo);
     background-color: var(--cor5);
-    color: var(--cor5);
+    color: var(--cor3);
     height: 100vh;
 
 }
@@ -37,7 +39,7 @@ nav{
 }
 nav{
     text-decoration: none;
-    color: var(--cor4);
+    color: var(--cor3);
     margin: 0 2rem 1rem 0;
     font-size: 1.5rem;
 }
